@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Marlon Codes</title>
+    <meta><meta>
+
+    <!-- external style sheet (changes everything) -->
+    <link rel="stylesheet" type="text/css" href="CSS/default.css">
+
+</head>
+
+<body>
+
+    
+
+    <div>
+        <nav>
+            <a href="index.html">Profile</a>
+            <a href="projects.html">Projects</a>
+            <a href="more.html">More</a>
+        </nav>
+    </div>
+    <img src="Images/IMG_9742.png" alt="Picture of Marlon with keyboard">
+    <h1>Marlon Mueller-Soppart</h1>
+    <p>mmuellersoppart@gmail.com</p>
+    <p>Data focussed software engineer</p>
+    <p><a href="https://www.linkedin.com/in/marlonmms/">Linkedin</a></p>
+    <p><a href="https://github.com/mmuellersoppart">Github</a></p>
+</body>
+
+</html>
