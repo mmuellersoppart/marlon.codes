@@ -1,47 +1,141 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Marlon Codes</title>
-    <meta><meta>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <!-- external style sheet (changes everything) -->
+  <link rel="stylesheet" type="text/css" href="CSS/default.css">
+
+  <link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <title>Marlon Codes</title>
 </head>
-
+<body style="background-color: whitesmoke;">
 <body>
-    <div>
-        <nav>
-            <a href="index.html">Profile</a>
-            <a href="projects.html">Projects</a>
-            <a href="more.html">More</a>
-        </nav>
+
+    <!-- Navigation Bar -->
+
+    <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #1D1E1E;">
+        <div class="container">
+      
+          <button class="navbar-toggler" type="button"
+            data-toggle="collapse" data-target="#myTogglerNav"
+            aria-controls="myTogglerNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon bg-dark"></span>
+          </button>
+      
+          <a href="#" class="navbar-brand">MAMS</a>
+      
+          <div class="collapse navbar-collapse" id="myTogglerNav">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="index.html">Profile</a>
+              <a class="nav-item nav-link active" href="projects.html">Projects</a>
+              <a class="nav-item nav-link" href="more.html">More</a>
+         
+              <div class="dropdown">
+                <a class="nav-link dropdown-toggle"
+                data-toggle="dropdown" id="servicesDropdown"
+                aria-haspopup="true" aria-expanded="false" style="color: #dddddd;">Contact</a>
+                    <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+                        <a class="dropdown-item">mmuellersoppart@gmail.com</a>
+                        <a class="dropdown-item" href="https://www.linkedin.com/in/marlonmms/">LinkedIn</a>
+                    </div>
+                </div> <!-- dropdown -->
+
+
+            </div><!-- navbar -->      
+          </div><!-- collapse -->
+      
+        </div><!-- container -->
+      </nav><!-- nav -->
+
+    <div class="container" style="padding-top: 20px;">
+        <div class="row">
+
+            <div class="col-xl-3 col-md-6 col-xs-12">
+            <!-- project card: Note Recognition -->
+            <section class="card mb-5 border-success">
+                <img class="card-img-top img-fluid" src="Images/noImage_v01.svg" alt="no image placeholder">
+                <div class="card-body">
+                    <h1 class="card-title">Note Recognition</h1>
+                    <!-- description -->
+                    <h5 class="card-subtitle" style="padding-bottom: 5px;">Recognize and play quarter notes drawn on paper.</h5>
+                <!-- skills applied -->
+                    <p class="card-text">
+                        Python, OpenCV, music21</p>
+                </div>
+                <div class="card-footer">
+                    <a class="card-link" href="#">link</a>
+                </div>
+            </section>
+            </div>
+
+            <div class="col-xl-3 col-md-6 col-xs-12">
+            <!-- project card: Space Junk -->
+            <section class="card mb-5 border-success">
+                <img class="card-img-top img-fluid" src="Images/noImage_v01.svg" alt="no image placeholder">
+                <div class="card-body">
+                <h1 class="card-title">Space Junk</h1>
+                <!-- description -->
+                <h5 class="card-subtitle" style="padding-bottom: 5px;">An asteroids like game where 4 players control a space ship together using custom 
+                    arduino controllers and clean up space, finally. </h5>
+                <!-- skills applied -->
+                <p class="card-text">
+                    C, C#, Unity, Arduino, Photoshop, Drawing</p>
+                </div>
+                <div class="card-footer">
+                    <a class="card-link" href="#">link</a>
+                </div>
+            </section>
+            </div>
+
+            <div class="col-xl-3 col-md-6 col-xs-12">
+                <!-- project card: Note Recognition -->
+                <section class="card mb-5 border-success">
+                    <img class="card-img-top img-fluid" src="Images/noImage_v01.svg" alt="no image placeholder">
+                    <div class="card-body">
+                        <h1 class="card-title">Github</h1>
+                        <!-- description -->
+                        <h5 class="card-subtitle" style="padding-bottom: 5px;">Go to the source</h5>
+                    <!-- skills applied -->
+                        <p class="card-text">
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <a class="card-link" href="#">source</a>
+                    </div>
+                </section>
+                </div>
+
+                <div class="col-xl-3 col-md-6 col-xs-12">
+                    <!-- project card: Note Recognition -->
+                    <section class="card mb-5 border-success">
+                        <img class="card-img-top img-fluid" src="Images/noImage_v01.svg" alt="no image placeholder">
+                        <div class="card-body">
+                            <h1 class="card-title">Other Projects</h1>
+                            <!-- description -->
+                            <h5 class="card-subtitle" style="padding-bottom: 5px;">Big excel of everthing I work on.</h5>
+                        <!-- skills applied -->
+                            <p class="card-text">
+                                </p>
+                        </div>
+                        <div class="card-footer">
+                            <a class="card-link" href="#">google sheet</a>
+                        </div>
+                    </section>
+                    </div>
+
+        </div> <!-- card group -->
+    <!-- container end -->
     </div>
+
     
-    <!-- project card 1 -->
-    <h1>Note Recognition</h1>
-    <!-- description -->
-    <p>Recognize and play quarter notes drawn on paper.</p>
-    <!-- skills applied -->
-    <ul>
-        <li>Python</li>
-        <li>OpenCV</li>
-        <li>music21</li>
-    </ul>
-    <p>links</p>
 
-    <!-- project card 2 -->
-    <h1>Space Junk</h1>
-    <p>An asteroids like game where 4 players control a space ship together using custom 
-        arduino controllers and clean up space, finally. 
-    </p>
-    <ul>
-        <li>C</li>
-        <li>C#</li>
-        <li>Unity</li>
-        <li>Arduino</li>
-        <li>Photoshop</li>
-        <li>Drawing</li>
-    </ul>
-    <p>links</p>
-
-</body>
-
-</html>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    </body>
+    </html>
